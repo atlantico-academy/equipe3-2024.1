@@ -1,0 +1,24 @@
+,variavel,descrição,tipo,subtipo
+0,age,idade do indivíduo observado,quantitativa,discreta
+1,sex,"sexo do indivíduo observado, 1 = masculino, 0 = feminino",qualitativa,nominal
+2,chest pain type,"tipo de dor no peito, 
+                    1 = angina típica
+                    2 = angina atípica
+                    3 = dor não anginosa
+                    4 = assintomática",qualitativa,nominal
+3,resting bp s,"pressão arterial em repouso, medido em mm Hg (milímetros de mercúrio)",quantitativa,discreta
+4,cholesterol,"nível de colesterol no sangue, medido em mg/dl (miligramas por decilitro)",quantitativa,discreta
+5,fasting blood sugar,"quantidade de açúcar no sangue, medido em mg/dl, 1 = se for maior que 120mg/dl, 0 = caso contrario",quantitativa,discreta/binaria
+6,resting ecg,"resultado do eletrocardiograma em repouso
+                   0 = Normal
+                   1 = apresentando anormalidade de onda ST-T (inversões da onda T e/ou elevação ou 
+                                                               depressão do segmento ST de > 0,05 mV) mV = milivolt
+                   2 = mostrando hipertrofia ventricular esquerda provável ou definitiva pelos critérios de Estes.",qualitativa,nominal
+7,max heart rate,frequencia cardíaca máxima alcançada,quantitativa,discreta
+8,exercise angina,"angina induzida por exercício, 1 = sim, 0 = não",quantitativa,discreta/binaria
+9,oldpeak,medida da elevação/depressão do segmento ST,quantitativa,continua
+10,ST slope,"inclinação do segmento ST no pico do exercício
+                   1 = ascendente
+                   2 = plana
+                   3 = descendente",quantitativa,discreta
+11,target,"classe a qual o individuo pertence, 1 = doença cardíaca, 0 = normal",quantitativa,discreta/binaria
